@@ -4,10 +4,10 @@ var depositImgLoaded = false;
 
 for (var i=0; i<9; i++) {
 	newImg = new Image();
-	newImg.src = "dice" + i.toString() + ".png";
+	newImg.src = "images/dice" + i.toString() + ".png";
 	diceImages.push(newImg);
 }
 
 var depositImg = new Image();
 
-depositImg.src = "deposit.png";
+depositImg.src = "images/deposit.png";
